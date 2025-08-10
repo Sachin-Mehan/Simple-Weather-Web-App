@@ -1,0 +1,20 @@
+[theme]
+# Theme colors
+primaryColor = "#1E90FF"          # Dodger Blue for main highlights
+backgroundColor = "#F5F9FF"       # Light blue-gray background
+secondaryBackgroundColor = "#E0ECFF"  # Slightly darker panel background
+textColor = "#1C1C1C"             # Dark gray text
+font = "sans serif"               # Clean and modern
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+
+[ui]
+hideTopBar = false
+
+[app]
+title = "☀️ Weather Dashboard"
+description = "Real-time weather updates with sunrise/sunset info."
+favicon = "https://upload.wikimedia.org/wikipedia/commons/6/60/Sun_icon.svg"
